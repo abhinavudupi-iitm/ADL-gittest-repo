@@ -1,2 +1,1 @@
-# ADL-gittest-repo
-Learning git 
+testing git part of IITM BS DA&P ADL course
