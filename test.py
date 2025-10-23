@@ -2,4 +2,7 @@ a = input("name please")
 print("hi", a)
 
 b = int(input('age'))
-print("youre a minor")
+if b<18:
+    print("youre a minor")
+else:
+    print('adult')
