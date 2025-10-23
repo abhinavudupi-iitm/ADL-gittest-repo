@@ -1,3 +1,8 @@
-const utils = require("./comp/util.js")
+const http = require("http");
 
-console.log(utils.fact(4));
+const server = http.createServer((req,res) => {
+    console.log("got request");
+    res.end("over");
+});
+
+server.listen(5000, ()=> {console.log("server listening");} );
